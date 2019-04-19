@@ -1,5 +1,5 @@
 <script>
-  import Cookies from 'tiny-cookie';
+  import { getCookie, setCookie } from 'tiny-cookie';
 
   export default {
     data() {
@@ -15,13 +15,13 @@
     },
     methods: {
       firstVisit() {
-        return !Cookies.get(this.name);
+        return !getCookie(this.name);
       },
       show() {
         this.hidden = false;
       },
       hide() {
-        Cookies.set(this.name, 'accepted', {expires: '1Y'});
+        setCookie(this.name, 'accepted', {expires: '1Y'});
 
         this.hidden = true;
       },
