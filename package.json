@@ -4,5 +4,8 @@
   "description": "A collection of Vue renderless components",
   "main": "./src/index.js",
   "author": "Paweł Mysior <pawelmysior@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tiny-cookie": "^2.3.1"
+  }
 }
