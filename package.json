@@ -1,0 +1,8 @@
+{
+  "name": "vue-renderless-components",
+  "version": "0.5.0",
+  "description": "A collection of Vue renderless components",
+  "main": "./src/index.js",
+  "author": "Paweł Mysior <pawelmysior@gmail.com>",
+  "license": "MIT"
+}
